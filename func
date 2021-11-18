@@ -1,0 +1,20 @@
+-- select * from student_proskurin;
+1)
+--CREATE FUNCTION EX9 (N Date) RETUTNS date
+--RETURN DATE_FORMAT(N, '%Y.%m.%d');
+--SELECT EX9 ("2021-10-18");
+
+2)
+--CREATE FUNCTION EX10 () RETUTNS int
+--RETURN (SELECT COUNT(*) as count FROM student_proskurin WHERE FIO LIKE 'П%');
+--SELECT EX10();
+
+3)
+--CREATE FUNCTION EX11 (N int) RETUTNS int
+--RETURN (SELECT SUM(Stipendiya) FROM student_proskurin WHERE Gruppa = N);
+--SELECT EX11(4p3);
+
+4)
+--CREATE FUNCTION EX12 (N int) RETUTNS int
+--RETURN (SELECT COUNT(*) as count FROM student_proskurin WHERE Gruppa = N);
+--SELECT EX12(4p3)
